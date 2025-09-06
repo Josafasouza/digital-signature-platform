@@ -1,0 +1,32 @@
+.navigation-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    background-color: #266299;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.navigation-menu button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.navigation-menu button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 640px) {
+    .navigation-menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+}
