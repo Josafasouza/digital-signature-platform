@@ -27,6 +27,7 @@ Abra o terminal e vá para o diretório digital-signature-platform.
 Bash
 
 cd C:\Projetos\digital-signature-platform
+
 2. Remova os volumes antigos (inicialização limpa):
 
 Se você já tentou rodar o projeto antes e encontrou erros de banco de dados, execute este comando para garantir uma inicialização limpa. Ele irá remover todos os contêineres e volumes de dados do Docker.
@@ -34,6 +35,7 @@ Se você já tentou rodar o projeto antes e encontrou erros de banco de dados, e
 Bash
 
 docker-compose down -v
+
 3. Inicie os serviços:
 
 Execute o comando abaixo para construir as imagens e iniciar todos os contêineres definidos no arquivo docker-compose.yml.
